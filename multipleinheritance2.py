@@ -6,7 +6,7 @@ class Father():
 
 class Mother():
     def skills(self):
-        print("cooking, art")
+        print("cooking, painting")
 
 class Child(Father, Mother): #Added customization
     def skills(self):
